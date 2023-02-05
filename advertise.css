@@ -37,4 +37,6 @@
     border-radius: 25px;
     background-image: linear-gradient(to left bottom, white, orange);
     font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
