@@ -35,7 +35,7 @@
 
 
 .apparel{
-    background-image: url(/Market_Center/Market_images/apparel.jpg);
+    background-image: url("apparel.jpg");
     margin-right: 20px;
     transition-property: box-shadow;
     transition-delay: .2s;
@@ -49,7 +49,7 @@
 }
 
 .accessories{
-    background-image: url(/Market_Center/Market_images/accessories.webp);
+    background-image: url("accessories.webp");
     margin-right: 20px;
     transition-property: box-shadow;
     transition-delay: .2s;
@@ -57,7 +57,7 @@
 }
 
 .decore{
-    background-image: url(/Market_Center/Market_images/decore.webp);
+    background-image: url("decore.webp");
     transition-property: box-shadow;
     transition-delay: .2s;
     transition-timing-function: ease-in;
