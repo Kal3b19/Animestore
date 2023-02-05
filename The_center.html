@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    <title>The Market Center</title>
+    <link rel="stylesheet" href="/Market_Center/header.css">
+    <link rel="stylesheet" href="/Market_Center/general.css">
+    <link rel="stylesheet" href="/Market_Center/advertise.css">
+    <link rel="stylesheet" href="/Market_Center/shoping.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body style="padding-bottom: 200px;">
+    <header class="header" style="background-color: orange;">
+        <div class="Logo">
+            <p class="logo-name">Anime Plug </p>
+        </div>
+
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+
+
+        <nav class="menue">
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a>Shop</a>
+                </li>
+                <li>
+                    <a>Contact</a>
+                </li>
+                <li>
+                    <a>Location</a>
+                </li>
+                <li><img class="logo-image" src="/Market_Center/Market_images/The_Market_Logo.png"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".menue");
+            navBar.classList.toggle("active"); 
+        }
+    </script>
+    
+    <main>
+        <section class="advertisement">
+            <div class="shop-now">
+                <button class="shop-now-button">
+                    Shop Now
+                </button> 
+            </div>
+
+        </section> 
+
+        <section class="categories">
+            <div class="apparel">
+                <div>Apparel</div>
+            </div>
+
+            <div class="accessories">
+                <div>Accessories</div>
+            </div>
+
+            <div class="decore">
+                <div>Decore</div>
+            </div>
+
+        </section>
+
+        <h1>Most Popular</h1>
+    
+
+        <section class="shopping-grid">
+            <div class="shopping-item">
+                <div class="item">
+                    <img class="item-picture" src="/Market_Center/Market_images/item(1).jpg">
+                    <div class="item-stock">In stock</div>
+                    <div class="item-price">price</div>
+                </div>
+
+                <div>
+                    3D Naruto Print Shorts
+                </div>
+
+                <button class="buy-now-button">
+                    Buy Now 
+                </button>
+            </div>
+
+            <div class="shopping-item">
+                <div class="item">
+                    <img class="item-picture" src="/Market_Center/Market_images/item(2).jpg">
+                    <div class="item-stock">In stock</div>
+                    <div class="item-price">price</div>
+                </div>
+
+                <div>
+                    Darling in the Franxx Hoodie  
+                </div>
+
+                <button class="buy-now-button">
+                    Buy Now 
+                </button>
+            </div>
+
+            <div class="shopping-item">
+                <div class="item">
+                    <img class="item-picture" src="/Market_Center/Market_images/item(3).jpg">
+                    <div class="item-stock">In stock</div>
+                    <div class="item-price">price</div>
+                </div>
+
+                <div>
+                    Inosuke joggerpants
+                </div>
+
+                <button class="buy-now-button">
+                    Buy Now 
+                </button>
+            </div>
+
+            <div class="shopping-item">
+                <div class="item">
+                    <img class="item-picture" src="/Market_Center/Market_images/item(4).jpg">
+                    <div class="item-stock">In stock</div>
+                    <div class="item-price">price</div>
+                </div>
+
+                <div>
+                    One Piece Anime T-shirt
+                </div>
+
+                <button class="buy-now-button">
+                    Buy Now 
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+
+
+</html>

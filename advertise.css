@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+
+.advertisement{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://knect365.imgix.net/uploads/Anime-df0b53c350ec90e775d21afd0e110979-0bef3a6436ef1f259f71a27409ce54c0.jpg?auto=compress&fit=max&w=412&dpr=5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+@media(max-width: 650){
+    .advertisement{
+        height: 100px;
+        background-image: url(https://knect365.imgix.net/uploads/Anime-df0b53c350ec90e775d21afd0e110979-0bef3a6436ef1f259f71a27409ce54c0.jpg?auto=compress&fit=max&w=412&dpr=5);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+
+    }
+}
+
+.shop-now{
+    text-align: center;
+}
+
+.shop-now-button{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-image: linear-gradient(to left bottom, white, orange);
+    font-weight: bold;
+}
