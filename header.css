@@ -28,6 +28,8 @@
 
 .menue ul {
     display: flex;
+    text-decoration: none;
+    color: black;
 }
 
 .menue ul li a {
