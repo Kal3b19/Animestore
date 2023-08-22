@@ -17,8 +17,9 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: #0000;
-    background-color: gray;
+    background-color: orange;
     height: 260px;
+    margin-top: 30px; 
 }
 
 .container3 h1{
