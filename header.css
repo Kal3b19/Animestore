@@ -39,6 +39,8 @@
     transition: .2s;
     cursor: pointer;
     margin: 0px 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .menue ul li a:hover{
