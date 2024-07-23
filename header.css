@@ -1,24 +1,25 @@
 .header{
     display: flex;
-    height: 100px;
+    height: 80px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     z-index: 1;
     padding: 0 30px;
+    background-color: rgba(85, 48, 0, 0.891);
+    color: black;
+    font-weight: bold;
 }
 
 .logo-name{
-    font-size: 44px;
+    font-size: 54px;
     font-weight: bold;
     font-family: Oleo script swash caps;
+    text-align: center;
+    background-color: white;
+    color: red;
 }
 
-
-.logo-image{
-    width: 110px;
-    
-}
 
 .hamburger{
     display: none;
@@ -28,8 +29,7 @@
 
 .menue ul {
     display: flex;
-    text-decoration: none;
-    color: black;
+    margin-right: 15px;
 }
 
 .menue ul li a {
@@ -41,8 +41,6 @@
     transition: .2s;
     cursor: pointer;
     margin: 0px 5px;
-    text-decoration: none;
-    color: black;
 }
 
 .menue ul li a:hover{
@@ -96,6 +94,7 @@
         background-color: black;
         overflow: hidden;
     }
+    
     .menue.active{
         height: 450px;
     }
@@ -116,33 +115,6 @@
 
     .menue ul li a{
         margin-bottom: 12px;
-    }
-
-    /* =========================== footer =========================*/
-    .container3{
-        display: grid;
-        grid-template-columns: 1fr;
-        border: #0000;
-        background-color: gray;
-        height: 260px;
-    }
-
-    address{
-        font-size: 20px;
-        text-align: center;
-        padding: 0px;
-    }
-
-    .container3 h1{
-        text-align: center;
-        font-size: 55px;
-        margin: 0px;
-        vertical-align: middle;
-    }
-
-    
-    .contactinfo{
-        padding: 10px;
     }
 
     
