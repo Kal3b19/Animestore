@@ -35,7 +35,7 @@
 
 
 .apparel{
-    background-image: url("apparel.jpg");
+    background-image: url(/Market_Center/Market_images/apparel.jpg);
     margin-right: 20px;
     transition-property: box-shadow;
     transition-delay: .2s;
@@ -49,7 +49,7 @@
 }
 
 .accessories{
-    background-image: url("accessories.webp");
+    background-image: url(/Market_Center/Market_images/accessories.webp);
     margin-right: 20px;
     transition-property: box-shadow;
     transition-delay: .2s;
@@ -57,7 +57,7 @@
 }
 
 .decore{
-    background-image: url("decore.webp");
+    background-image: url(/Market_Center/Market_images/decore.webp);
     transition-property: box-shadow;
     transition-delay: .2s;
     transition-timing-function: ease-in;
@@ -73,6 +73,7 @@
     padding-right: 60px;
     column-gap: 10px;
     margin-left: 120px;
+    row-gap: 10px;
 }
 
 @media only screen and (max-width: 1320px) {
@@ -149,10 +150,11 @@
 
 .shopping-item{
     border: solid;
-    border-width: 1px;
+    border-width: 5px;
     border-color: black;
     text-align: center;
     background-color: bisque;
+    border-radius: 20px;
 }
 .item-picture{
     height: 100%;
@@ -160,6 +162,7 @@
 
 .item{
     position: relative;
+    padding: 10px;
 }
 
 .item-stock{
